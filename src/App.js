@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <ItemListContainer title="Bienvenidos a Crow Indumentaria" />
+      <ItemListContainer greeting="Bienvenidos a Crow Indumentaria" />
     </>
   );
 }
