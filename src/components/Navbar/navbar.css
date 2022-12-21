@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+  background-color: #eeee;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0%;
+}
+
+nav .ul-cont li {
+  padding: 32% 3% 0% 3%;
+}
+
+.cont-logo {
+  display: flex;
+  justify-content: left;
+}
+
+.cont-carro {
+  display: flex;
+  justify-content: right;
+  width: 20%;
+}
+
+.ul-cont {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Questrial;
+  font-weight: bold;
+}
+
+.logoNav {
+  width: 40%;
+  padding-left: 10%;
+}
+
+.carrito {
+  width: 8%;
+  padding-right: 10%;
+}
