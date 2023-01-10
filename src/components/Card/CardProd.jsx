@@ -1,4 +1,5 @@
 import Button from "../Button/Button";
+import Flex from "../Flex/Flex";
 import "./cardProd.css";
 
 function CardProd(props) {
@@ -8,10 +9,10 @@ function CardProd(props) {
       <p>{title}</p>
       <img src={img} alt={title} />
       <p>{"$" + price}</p>
-      <div className="btns">
+      <Flex className="btns">
         <Button name="Ver producto" />
         <Button name="Agregar al carrito" />
-      </div>
+      </Flex>
     </div>
   );
 }

@@ -11,13 +11,13 @@ function Navbar(props) {
         </div>
         <ul className="ul-cont">
           <li>
-            <a href="">INICIO</a>
+            <a href="">REMERAS</a>
           </li>
           <li>
-            <a href="">PRODUCTOS</a>
+            <a href="">PANTALONES</a>
           </li>
           <li>
-            <a href="">CONTACTO</a>
+            <a href="">TOPS</a>
           </li>
         </ul>
         <CartWidget />

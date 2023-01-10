@@ -21,6 +21,7 @@ nav .ul-cont li {
 .cont-carro {
   display: flex;
   justify-content: right;
+  align-items: center;
   width: 20%;
 }
 
@@ -37,10 +38,11 @@ a {
 }
 
 .logoNav {
-  width: 40%;
+  width: 50%;
 }
 
 .carrito {
-  width: 15%;
-  padding: 10%;
+  width: 60px;
+  height: 60px;
+  padding: 10% 10% 0% 10%;
 }
