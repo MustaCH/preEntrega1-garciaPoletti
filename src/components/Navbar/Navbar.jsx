@@ -1,26 +1,31 @@
 import CartWidget from "./CartWidget";
 import "./navbar.css";
 import Flex from "../Flex/Flex";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
     <nav className="nav-cont">
       <Flex>
         <div className="cont-logo">
-          <img className="logoNav" src="/img/crow-logo.png" alt="logo"></img>
+          <Link to="/">
+            <img className="logoNav" src="/img/crow-logo.png" alt="logo"></img>
+          </Link>
         </div>
         <ul className="ul-cont">
           <li>
-            <a href="">REMERAS</a>
+            <Link to="/cat/remera">REMERAS</Link>
           </li>
           <li>
-            <a href="">PANTALONES</a>
+            <Link to="/cat/pantalon">PANTALONES</Link>
           </li>
           <li>
-            <a href="">TOPS</a>
+            <Link to="/cat/top">TOPS</Link>
           </li>
         </ul>
-        <CartWidget />
+        <Link to="/cart">
+          <CartWidget />
+        </Link>
       </Flex>
     </nav>
   );

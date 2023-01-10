@@ -1,7 +1,7 @@
 const productoStock = [
   {
     id: 1,
-    type: "remera",
+    cat: "remera",
     title: "Remera face your demons",
     img: "/img/remeras/remera1.jpeg",
     price: 6325,
@@ -9,7 +9,7 @@ const productoStock = [
   },
   {
     id: 2,
-    type: "remera",
+    cat: "remera",
     title: "Remera blanca Rata",
     img: "/img/remeras/remera2.jpeg",
     price: 6325,
@@ -17,7 +17,7 @@ const productoStock = [
   },
   {
     id: 3,
-    type: "remera",
+    cat: "remera",
     title: "Remera Rata",
     img: "/img/remeras/remera3.jpeg",
     price: 6325,
@@ -25,7 +25,7 @@ const productoStock = [
   },
   {
     id: 4,
-    type: "remera",
+    cat: "remera",
     title: "Remera Bone Hands",
     img: "/img/remeras/remera4.jpeg",
     price: 6325,
@@ -33,7 +33,7 @@ const productoStock = [
   },
   {
     id: 5,
-    type: "remera",
+    cat: "remera",
     title: "Remera Molo",
     img: "/img/remeras/remera5.jpeg",
     price: 6325,
@@ -41,7 +41,7 @@ const productoStock = [
   },
   {
     id: 6,
-    type: "remera",
+    cat: "remera",
     title: "Remera Cheating Death",
     img: "/img/remeras/remera6.jpeg",
     price: 6325,
@@ -49,7 +49,7 @@ const productoStock = [
   },
   {
     id: 7,
-    type: "remera",
+    cat: "remera",
     title: "Remera La Muerte",
     img: "/img/remeras/remera7.jpeg",
     price: 6325,
@@ -57,7 +57,7 @@ const productoStock = [
   },
   {
     id: 8,
-    type: "remera",
+    cat: "remera",
     title: "Remera Evil Dead",
     img: "/img/remeras/remera8.jpeg",
     price: 6325,
@@ -65,7 +65,7 @@ const productoStock = [
   },
   {
     id: 9,
-    type: "pantalon",
+    cat: "pantalon",
     title: "Pantalón cargo rústico",
     img: "/img/pantalones/pantalon1.jpeg",
     price: 9890,
@@ -73,7 +73,7 @@ const productoStock = [
   },
   {
     id: 10,
-    type: "pantalon",
+    cat: "pantalon",
     title: "Pantalon eco-cuero costuras",
     img: "/img/pantalones/pantalon2.jpeg",
     price: 14927,
@@ -81,7 +81,7 @@ const productoStock = [
   },
   {
     id: 11,
-    type: "pantalon",
+    cat: "pantalon",
     title: "Pantalón Parachute gris topo",
     img: "/img/pantalones/pantalon3.jpeg",
     price: 6000,
@@ -89,7 +89,7 @@ const productoStock = [
   },
   {
     id: 12,
-    type: "pantalon",
+    cat: "pantalon",
     title: "Pantalón Wideleg Escoces",
     img: "/img/pantalones/pantalon4.jpeg",
     price: 12075,
@@ -97,7 +97,7 @@ const productoStock = [
   },
   {
     id: 13,
-    type: "pantalon",
+    cat: "pantalon",
     title: "Pantalon Yessi",
     img: "/img/pantalones/pantalon5.jpeg",
     price: 8165,
@@ -105,7 +105,7 @@ const productoStock = [
   },
   {
     id: 14,
-    type: "pantalon",
+    cat: "pantalon",
     title: "Pantalon Morphosis",
     img: "/img/pantalones/pantalon6.jpeg",
     price: 10695,
@@ -113,7 +113,7 @@ const productoStock = [
   },
   {
     id: 15,
-    type: "pantalon",
+    cat: "pantalon",
     title: "Jogger Siré",
     img: "/img/pantalones/pantalon7.jpeg",
     price: 7360,
@@ -121,7 +121,7 @@ const productoStock = [
   },
   {
     id: 16,
-    type: "pantalon",
+    cat: "pantalon",
     title: "Jogger cadenas y tiras",
     img: "/img/pantalones/pantalon8.jpeg",
     price: 5060,
@@ -129,7 +129,7 @@ const productoStock = [
   },
   {
     id: 17,
-    type: "top",
+    cat: "top",
     title: "Reme Crop Cosmic",
     img: "/img/tops/top1.jpeg",
     price: 4000,
@@ -137,7 +137,7 @@ const productoStock = [
   },
   {
     id: 18,
-    type: "top",
+    cat: "top",
     title: "Top Lurex Frunce",
     img: "/img/tops/top2.jpeg",
     price: 3220,
@@ -145,7 +145,7 @@ const productoStock = [
   },
   {
     id: 19,
-    type: "top",
+    cat: "top",
     title: "Top Espalda Estrella",
     img: "/img/tops/top3.jpeg",
     price: 2875,
@@ -153,7 +153,7 @@ const productoStock = [
   },
   {
     id: 20,
-    type: "top",
+    cat: "top",
     title: "Top Roulette Puntilla",
     img: "/img/tops/top4.jpeg",
     price: 3220,
@@ -161,7 +161,7 @@ const productoStock = [
   },
   {
     id: 21,
-    type: "top",
+    cat: "top",
     title: "Top Musculosa Cruzada",
     img: "/img/tops/top5.jpeg",
     price: 3150,
@@ -169,7 +169,7 @@ const productoStock = [
   },
   {
     id: 22,
-    type: "top",
+    cat: "top",
     title: "Top Musculosa básica blanca",
     img: "/img/tops/top6.jpeg",
     price: 3335,
@@ -177,7 +177,7 @@ const productoStock = [
   },
   {
     id: 23,
-    type: "top",
+    cat: "top",
     title: "Top tiras frunce lateral negro",
     img: "/img/tops/top7.jpeg",
     price: 3335,
@@ -185,7 +185,7 @@ const productoStock = [
   },
   {
     id: 24,
-    type: "top",
+    cat: "top",
     title: "Crop musculosa chomba",
     img: "/img/tops/top8.jpeg",
     price: 3680,
@@ -203,4 +203,25 @@ const obtenerProducts = () => {
   });
 };
 
+const getProduct = (id) => {
+  return new Promise((resolve) => {
+    const requestedProd = productoStock.find((item) => {
+      return item.id === parseInt(id);
+    });
+    setTimeout(() => {
+      resolve(requestedProd);
+    }, 2000);
+  });
+};
+
+const getProductBycat = (cat) => {
+  return new Promise((resolve) => {
+    let reqProd = productoStock.filter((item) => item.cat === cat);
+    setTimeout(() => {
+      resolve(reqProd);
+    }, 2000);
+  });
+};
+
 export default obtenerProducts;
+export { getProduct, getProductBycat };
