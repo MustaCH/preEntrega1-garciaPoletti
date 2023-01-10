@@ -1,0 +1,9 @@
+button {
+  background-color: black;
+  color: whitesmoke;
+  border-color: none;
+  border-radius: 0.5em;
+  margin: 1.5%;
+  padding: 5%;
+  font-family: Questrial;
+}
