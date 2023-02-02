@@ -1,8 +1,13 @@
+import { useCartContext } from "../../storage/cartContext";
+
 function CartWidget() {
+  const { cartContext } = useCartContext();
+
   return (
-    <div className="cont-carro">
+    <>
       <img className="carrito" src="/img/shopping-cart.png" alt="carrito" />
-    </div>
+      <span>{cartContext}</span>
+    </>
   );
 }
 

@@ -26,6 +26,9 @@ function ItemListContainer(props) {
 
   return (
     <div className="itemListContainer">
+      <div className="greeting">
+        <h1>NUESTROS PRODUCTOS</h1>
+      </div>
       <Flex>
         {productoStock.map((item) => (
           <CardProd key={item.id} item={item} />

@@ -1,3 +1,15 @@
 .itemListContainer {
   background-color: #212121;
 }
+
+.greeting {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0%;
+  padding: 3% 0% 3% 0%;
+  color: whitesmoke;
+  font-family: Questrial;
+}
