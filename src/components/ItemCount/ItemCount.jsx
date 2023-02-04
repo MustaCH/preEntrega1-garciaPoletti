@@ -3,7 +3,7 @@ import "../Button/button.css";
 import "./itemCount.css";
 
 function ItemCount({ onAddToCart }) {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   function handleSuma() {
     setCount(count + 1);
@@ -19,7 +19,7 @@ function ItemCount({ onAddToCart }) {
         <p>Cantidad</p>
       </div>
       <div className="btn-cont">
-        <button disabled={count === 0} onClick={handleResta}>
+        <button disabled={count === 1} onClick={handleResta}>
           -
         </button>
         <p>{count}</p>

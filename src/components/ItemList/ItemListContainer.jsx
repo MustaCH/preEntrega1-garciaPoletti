@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import CardProd from "../Card/CardProd";
 import Flex from "../Flex/Flex";
-import obtenerProducts from "../../services/mockService";
-import { getProductBycat } from "../../services/mockService";
+import { obtenerProducts } from "../../services/firebase";
+import { getProductBycat } from "../../services/firebase";
 import "./itemListContainer.css";
 import { useParams } from "react-router-dom";
 

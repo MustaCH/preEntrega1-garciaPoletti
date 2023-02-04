@@ -1,0 +1,28 @@
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 5%;
+  width: 50%;
+}
+
+.cart-item-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+.cart-item-detail p {
+  margin: 2% 2% 2% 2%;
+  text-align: center;
+}
+
+.delete-btn {
+  justify-self: right;
+  font-size: 1.2rem;
+  color: red;
+}

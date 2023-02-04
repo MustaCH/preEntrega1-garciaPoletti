@@ -1,12 +1,12 @@
 import { useCartContext } from "../../storage/cartContext";
 
 function CartWidget() {
-  const { cartContext } = useCartContext();
+  const { cart } = useCartContext();
 
   return (
     <>
       <img className="carrito" src="/img/shopping-cart.png" alt="carrito" />
-      <span>{cartContext}</span>
+      <span>{cart.length}</span>
     </>
   );
 }

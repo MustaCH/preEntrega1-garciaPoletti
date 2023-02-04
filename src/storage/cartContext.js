@@ -5,27 +5,29 @@ export const cartContext = createContext([]);
 function CartProv({ children }) {
   const [cart, setCart] = useState([]);
 
-  /*const addProduct = (item) => {
-    const newCart = cart.filter((product) => product.id !== item.id);
-    newCart.push({ ...item });
-    setCart(newCart);
-  };*/
-
   const addProduct = (item) => {
     let newCart = [...cart];
     newCart.push(item);
     setCart(newCart);
   };
 
-  console.log("carrito", cart);
+  const totalPrice = () => {
+    return cart.reduce((prev, act) => prev + act.count * act.price, 0);
+  };
+
+  const totalProducts = () =>
+    cart.reduce(
+      (acumulador, productoAcual) => acumulador + productoAcual.count,
+      0
+    );
 
   const clearCart = () => setCart([]);
 
   const isInCart = (id) =>
     cart.find((product) => product.id === id) ? true : false;
 
-  const removeProd = (id) =>
-    setCart(cart.filter((product) => product.id !== id));
+  const removeProd = (title) =>
+    setCart(cart.filter((product) => product.title !== title));
 
   return (
     <cartContext.Provider
@@ -34,6 +36,9 @@ function CartProv({ children }) {
         isInCart,
         removeProd,
         addProduct,
+        totalPrice,
+        totalProducts,
+        cart,
       }}
     >
       {children}

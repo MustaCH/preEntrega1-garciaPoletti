@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function CardProd(props) {
   const { title, img, price, id } = props.item;
   return (
-    <div className="card">
+    <div className="card animacion">
       <p>{title}</p>
       <Link to={`/producto/${id}`}>
         <img src={img} alt={title} />
@@ -16,7 +16,6 @@ function CardProd(props) {
         <Link to={`/producto/${id}`}>
           <Button name="Ver producto" />
         </Link>
-        <Button name="Agregar al carrito" />
       </Flex>
     </div>
   );

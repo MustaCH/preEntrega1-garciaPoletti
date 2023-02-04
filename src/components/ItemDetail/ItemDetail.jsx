@@ -1,6 +1,5 @@
 import ItemCount from "../ItemCount/ItemCount";
 import React, { useState } from "react";
-import Button from "../Button/Button";
 import { useCartContext } from "../../storage/cartContext";
 import "./itemDetail.css";
 import { Link } from "react-router-dom";
@@ -10,7 +9,6 @@ function ItemDetail({ img, title, price }) {
   const { addProduct } = useCartContext();
 
   const handleAddToCart = (count) => {
-    console.log(`Agregaste al carrito ${count} unidades del producto ${title}`);
     setCountInCart(count);
     addProduct({ title, price, count });
   };
@@ -29,7 +27,6 @@ function ItemDetail({ img, title, price }) {
           ) : (
             <Link to="/cart">Ir al carrito</Link>
           )}
-          <Button name="Comprar" />
         </div>
       </div>
     </div>

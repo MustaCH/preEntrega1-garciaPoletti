@@ -1,0 +1,32 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.total-price {
+  font-size: 2rem;
+}
+
+button {
+  font-size: 1rem;
+}
+
+.btn-finalizar {
+  padding: 1%;
+}
+
+.btn-eliminar {
+  background-color: #b22c2c;
+  padding: 1%;
+}
+
+.empty-cart {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.go-shop {
+  text-decoration: underline;
+}

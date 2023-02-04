@@ -11,6 +11,14 @@
   margin-top: 2%;
 }
 
+.animacion {
+  transition: transform 300ms ease-out;
+}
+
+.animacion:hover {
+  transform: translate(0px, 0px) scale(1.05, 1.05);
+}
+
 .card img {
   width: 70%;
 }

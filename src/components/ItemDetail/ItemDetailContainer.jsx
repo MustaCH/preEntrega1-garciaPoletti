@@ -1,5 +1,5 @@
 import React, { useEffect, useState /*useContext*/ } from "react";
-import { getProduct } from "../../services/mockService";
+import { getProduct } from "../../services/firebase";
 import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
 
